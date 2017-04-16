@@ -1,0 +1,65 @@
+<musicstore>
+	<synth category="vintage">
+		<brand> Roland </brand>
+		<name> Jupiter 8</name>
+		<year> 1981 </year>
+		<price> 3999.99$ </price>
+		<img> img/roland_jup8.jpg </img>
+	</synth>
+	<synth category="vintage">
+		<brand> Sequential Circuits </brand>
+		<name> Prophet 5</name>
+		<year> 1978 </year>
+		<price> 4499.99$ </price>
+		<img> img/sci_prophet5_angle_lg.jpg </img>
+	</synth>
+	<synth category="vintage">
+		<brand>  Sequential Circuits</brand>
+		<name> Pro One </name>
+		<year> 1981</year>
+		<price> 1299.99$</price>
+		<img> img/sci_proone_lg.jpg </img>		
+	</synth>
+		<synth category="vintage">
+		<brand>  Oberheim</brand>
+		<name> OB-8</name>
+		<year> 1983 </year>
+		<price>5999.99$ </price>
+		<img>img/oberheim_ob8_angle_lg.jpg </img>		
+	</synth>
+	<synth category="vintage">
+		<brand>  ARP </brand>
+		<name> 2600 </name>
+		<year> 1971 </year>
+		<price> 7999.99$ </price>
+		<img>img/2600.jpg</img>		
+	</synth>
+	<synth category="modern" new="true">
+		<brand>  Teenage Engineering</brand>
+		<name> OP-1</name>
+		<year> 2011</year>
+		<price>899.99$ </price>
+		<img>img/teenage-engineering--OP1-0.jpg </img>		
+	</synth>	
+	<synth category="modern">
+		<brand>  Dave Smith </brand>
+		<name> Pro Two </name>
+		<year> 2015 </year>
+		<price> 1999.99$ </price>
+		<img> img/pro2.jpg </img>		
+	</synth>	
+	<synth category="drummachine" new="true">
+		<brand>  Elektron</brand>
+		<name> Rytm</name>
+		<year> 2014</year>
+		<price>1599.99$ </price>
+		<img>img/preview.jpg </img>
+	</synth>	
+	<synth category="drummachine">
+		<brand>  Roland</brand>
+		<name> TR-909</name>
+		<year>1984 </year>
+		<price>2999.99$ </price>
+		<img>img/roland_tr909.jpg </img>		
+	</synth>
+</musicstore>
