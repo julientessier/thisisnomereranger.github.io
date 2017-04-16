@@ -14,7 +14,7 @@ function afficherSynth(listeSynth) {
         name = unSynth.getElementsByTagName("name")[0].firstChild.nodeValue;
         year = unSynth.getElementsByTagName("year")[0].firstChild.nodeValue;
         item += 
-        '<img src='+image+'><div class="caption"><h4><a href="#">'+brand+name+'</a></h4><h4 class="pull-left">'+prix+'</h4></div><button id='+i+' type="submit" onclick="ajouterAuPanier(id)" class="btn btn-primary">Ajouter au panier</button>';
+        '<img src='+image+'><div class="caption"><h4><a href="#">'+brand+name+'</a></h4><h4 class="pull-left">'+prix+'</h4></div><button id='+i+' type="submit" onclick="ajouterAuPanier(id);prompt()" class="btn btn-primary">Ajouter au panier</button>';
         document.getElementById('shop').innerHTML += item;
     }
 
@@ -52,7 +52,7 @@ function afficheParCategorie(categorie) {
         name = unSynth.getElementsByTagName("name")[0].firstChild.nodeValue;
         year = unSynth.getElementsByTagName("year")[0].firstChild.nodeValue;
         item += 
-        '<img src='+image+'><div class="caption"><h4><a href="#">'+brand+name+'</a></h4><h4 class="pull-left">'+prix+'</h4></div><button id='+i+' type="submit" onclick="ajouterAuPanier(id)" class="btn btn-primary">Ajouter au panier</button>';
+        '<img src='+image+'><div class="caption"><h4><a href="#">'+brand+name+'</a></h4><h4 class="pull-left">'+prix+'</h4></div><button id='+i+' type="submit" onclick="ajouterAuPanier(id);prompt()" class="btn btn-primary">Ajouter au panier</button>';
         document.getElementById('shop').innerHTML += item;
         }
     }
@@ -77,7 +77,7 @@ function afficheParNew(categorie) {
         name = unSynth.getElementsByTagName("name")[0].firstChild.nodeValue;
         year = unSynth.getElementsByTagName("year")[0].firstChild.nodeValue;
         item += 
-        '<img src='+image+'><div class="caption"><h4><a href="#">'+brand+name+'</a></h4><h4 class="pull-left">'+prix+'</h4></div><button id='+i+' onclick="ajouterAuPanier(id)" type="submit" class="btn btn-primary">Ajouter au panier</button>';
+        '<img src='+image+'><div class="caption"><h4><a href="#">'+brand+name+'</a></h4><h4 class="pull-left">'+prix+'</h4></div><button id='+i+' onclick="ajouterAuPanier(id);prompt()" type="submit" class="btn btn-primary">Ajouter au panier</button>';
         document.getElementById('shop').innerHTML += item;
         }
     }
@@ -178,7 +178,7 @@ function afficherNew() {
             name = unSynth.getElementsByTagName("name")[0].firstChild.nodeValue;
             year = unSynth.getElementsByTagName("year")[0].firstChild.nodeValue;
             item += 
-            '<img src='+image+'><div class="caption"><h4><a href="#">'+brand+name+'</a></h4><h4 class="pull-left">'+prix+'</h4></div><button id='+i+' onclick="ajouterAuPanier(id)" type="submit" class="btn btn-primary">Ajouter au panier</button>';
+            '<img src='+image+'><div class="caption"><h4><a href="#">'+brand+name+'</a></h4><h4 class="pull-left">'+prix+'</h4></div><button id='+i+' onclick="ajouterAuPanier(id);prompt()" type="submit" class="btn btn-primary">Ajouter au panier</button>';
             document.getElementById('shop').innerHTML += item;
             }
     }
@@ -186,3 +186,7 @@ function afficherNew() {
 	,
 	error: function() { alert('Fichier introuvable'); }
 	});}
+function prompt(){
+    alert("item ajouté au panier!")
+    
+}
